@@ -1,5 +1,5 @@
-# K2P/K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
-Phicomm K2P/K3 OpenWrt firmware Compile by Github Actions
+# K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
+Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 [![LICENSE](https://img.shields.io/badge/license-apache--2.0-green.svg?style=flat-square&label=LICENSE)](https://github.com/yangxu52/K3-OpenWrt-Firmware-Action/blob/main/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/yangxu52/K3-OpenWrt-Firmware-Action.svg?style=flat-square&label=Stars&logo=github)
@@ -21,7 +21,7 @@ Phicomm K2P/K3 OpenWrt firmware Compile by Github Actions
 
 ### Including Applictions | 包含插件
 
-- #### Remove All USB Support(port can charge only)
+- USB Support
 
 - IPv6 Full Support
 

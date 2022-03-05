@@ -32,6 +32,11 @@ sed -i "s/hostname='OpenWrt'/hostname='PHICOMM-K3'/g" package/base-files/files/b
 cat package/base-files/files/bin/config_generate |grep hostname=
 echo '=========Alert hostname OK!========='
 
+echo '修改默认登录地址'
+sed -i "s/ipaddr:-"192.168.1.1" ipaddr:-"192.168.50.1"/g" package/base-files/files/bin/config_generate
+cat package/base-files/files/bin/config_generate |grep ipaddr=
+echo '=========Alert hostname OK!========='
+
 echo '移除主页跑分信息显示'
 sed -i 's/ <%=luci.sys.exec("cat \/etc\/bench.log") or ""%>//g' package/lean/autocore/files/arm/index.htm
 echo '=========Remove benchmark display in index OK!========='

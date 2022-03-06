@@ -6,7 +6,7 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 ![GitHub Forks](https://img.shields.io/github/forks/yangxu52/K3-OpenWrt-Firmware-Action.svg?style=flat-square&label=Forks&logo=github)
 
 ## Instruction | 介绍
-fork于[yangxu52]开源项目并加以修改，在此感谢[yangxu52]提供的项目源码！
+fork于[yangxu52](https://github.com/yangxu52)开源项目并加以修改，在此感谢[yangxu52](https://github.com/yangxu52)提供的项目源码！
 
 ### Source Code | 源码使用
 

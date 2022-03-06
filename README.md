@@ -1,4 +1,4 @@
-# K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
+#Newifi D2 && K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
 Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 [![LICENSE](https://img.shields.io/badge/license-apache--2.0-green.svg?style=flat-square&label=LICENSE)](https://github.com/yangxu52/K3-OpenWrt-Firmware-Action/blob/main/LICENSE)
@@ -6,7 +6,7 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 ![GitHub Forks](https://img.shields.io/github/forks/yangxu52/K3-OpenWrt-Firmware-Action.svg?style=flat-square&label=Forks&logo=github)
 
 ## Instruction | 介绍
-
+fork于[yangxu52]开源项目并加以修改，在此感谢[yangxu52]提供的项目源码！
 
 ### Source Code | 源码使用
 
@@ -60,4 +60,5 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 - [jerrykuku](https://github.com/jerrykuku)
 - [lwz322](https://github.com/lwz322)
 - [P3TERX](https://github.com/P3TERX)
+- [yangxu52](https://github.com/yangxu52)
 - And Every Source Contributor!

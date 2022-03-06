@@ -14,7 +14,7 @@
 #limitations under the License.
 #
 
-name: K2P16 firmware compile
+name: d-team_newifi-d2 firmware compile
 
 on:
   workflow_dispatch:
@@ -22,10 +22,10 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: PhicommK2P/feeds.conf.default
-  CONFIG_FILE: PhicommK2P/.config
-  MOD_P1_SH: PhicommK2P/part1.sh
-  MOD_P2_SH: PhicommK2P/part2.sh
+  FEEDS_CONF: NewifiD2/feeds.conf.default
+  CONFIG_FILE: NewifiD2/.config
+  MOD_P1_SH: NewifiD2/part1.sh
+  MOD_P2_SH: NewifiD2/part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true

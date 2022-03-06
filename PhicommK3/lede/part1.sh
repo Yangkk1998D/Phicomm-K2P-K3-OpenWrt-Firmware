@@ -21,6 +21,12 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 cat feeds.conf.default |grep helloworld
 echo '=========Add feed source OK!========='
 
+ echo '添加AliDDNS软件源'
+sed -i '$a src-git luci-app-aliddns https://github.com/honwen/luci-app-aliddns' feeds.conf.default
+cat feeds.conf.default |grep luci-app-aliddns
+echo '=========Add feed source OK!========='
+
+
 echo '添加Passwall软件源'
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 echo '=========Add feed source OK!========='

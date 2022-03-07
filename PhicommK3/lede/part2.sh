@@ -17,8 +17,7 @@
 #
 
 # Alter default router IP
-echo '修改默认登录地址'
-sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 #修改NTP设置
 #sed -i "s/'0.openwrt.pool.ntp.org'/'ntp1.aliyun.com'/g" package/base-files/files/bin/config_generate
@@ -39,6 +38,11 @@ echo '=========Alert kernel to 5.4.latest OK!========='
 echo '修改主机名'
 sed -i "s/hostname='OpenWrt'/hostname='PHICOMM-K3'/g" package/base-files/files/bin/config_generate
 cat package/base-files/files/bin/config_generate |grep hostname=
+echo '=========Alert hostname OK!========='
+
+echo '修改默认登录地址'
+sed -i "s/ipaddr:-"192.168.1.1" ipaddr:-"192.168.50.1"/g" package/base-files/files/bin/config_generate
+cat package/base-files/files/bin/config_generate |grep ipaddr=
 echo '=========Alert hostname OK!========='
 
 echo '移除主页跑分信息显示'

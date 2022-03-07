@@ -27,14 +27,6 @@ sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 #cat package/base-files/files/bin/config_generate |grep system.ntp.server=
 #echo 'Alert NTP Settings OK!====================='
 
-latest='179'
-latest_hash='2c9bdec0922a95aff34e8d53d2e0ecf7e842033cd908d2959a43d34afb5d897d'
-echo '修改5.4分支为5.4.latest'
-sed -i "/^LINUX_VERSION-5.4/c LINUX_VERSION-5.4 = .${latest}" include/kernel-5.4
-sed -i "/^LINUX_KERNEL_HASH-5.4/c LINUX_KERNEL_HASH-5.4.${latest} = ${latest_hash}" include/kernel-5.4
-echo '=========Alert kernel to 5.4.latest OK!========='
-
-
 echo '修改主机名'
 sed -i "s/hostname='OpenWrt'/hostname='PHICOMM-K3'/g" package/base-files/files/bin/config_generate
 cat package/base-files/files/bin/config_generate |grep hostname=

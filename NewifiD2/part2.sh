@@ -17,6 +17,6 @@
 #
 
 #修改主机名
-sed -i "s/hostname='OpenWrt'/hostname='Phicomm-K2P'/g" package/base-files/files/bin/config_generate
+sed -i "s/hostname='OpenWrt'/hostname='Newifi_D2'/g" package/base-files/files/bin/config_generate
 cat package/base-files/files/bin/config_generate |grep hostname=
 echo 'Alert Hostname OK!====================='
